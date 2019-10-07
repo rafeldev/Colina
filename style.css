@@ -108,7 +108,7 @@ body{
 
 .header{
     height: 100vh; 
-    background:  url(./colina/imagenes/header.jpg) no-repeat center top;
+    background:  url(./Colina/imagenes/header.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -156,7 +156,7 @@ p{
 .who{
     background-color: grey;
     color: white;
-    background:  url(./colina/imagenes/_MG_8357.jpg) no-repeat center top;
+    background:  url(./Colina/imagenes/_MG_8357.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -178,7 +178,7 @@ p{
     background-color: grey;
     color: white;
     padding-bottom: 10px;
-    background:  url(./colina/imagenes/_MG_8270.jpg) no-repeat center top;
+    background:  url(./Colina/imagenes/_MG_8270.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -189,7 +189,7 @@ p{
 .portafolio{
     background-color: #939393;
     color: #fff;
-    background:  url(./colina/imagenes/_MG_8217.jpg) no-repeat center top;
+    background:  url(./Colina/imagenes/_MG_8217.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -205,7 +205,7 @@ p{
 .audiovisual{
     background-color:  #878787;
     color: #fff;
-    background:  url(./colina/imagenes/_MG_5270.jpg) no-repeat center top;
+    background:  url(./Colina/imagenes/_MG_5270.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -233,7 +233,7 @@ p{
 .motiongraphic{
     background-color:  #7C7C7C;
     color: #fff;
-    background:  url(./colina/imagenes/ASD_0170.jpg) no-repeat center top;
+    background:  url(./Colina/imagenes/ASD_0170.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -260,7 +260,7 @@ p{
 .fotografia{
     background-color: #717171;
     color: #fff;
-    background:  url(./colina/imagenes/manga.jpg) no-repeat center top;
+    background:  url(./Colina/imagenes/manga.jpg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
