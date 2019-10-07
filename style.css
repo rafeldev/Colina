@@ -1,0 +1,314 @@
+/*
+  STYLES GUIDE:
+  0. RESET
+  1. LAYOUT
+  2. GENERIC ITEMS
+  3. PARTS OF WEB
+  4. LIST
+  5. FORM
+  5. ANIMATIONS
+  ----------
+  COLORS:
+    color1 => 
+    color2 => 
+    color3 => 
+    color4 => 
+ */
+
+
+ /* RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* LAYOUT */
+body{
+    text-align: center;
+    font-weight: 500 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.logo-colina{
+    width: 800px;
+    height: 400px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-audiovisual{
+    width: 250px;
+}
+
+.img-motiongraphic{
+    width: 250px;
+}
+
+.img-fotografia{
+    width: 250px;
+}
+
+/* 2 GENERIC ITEMS */
+
+.header{
+    height: 100vh; 
+    background:  url(./Colina/imagenes/header.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    height: 60px;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    color: black;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.title{
+    margin-bottom: 50px;
+    font-size:50px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+
+/* 3 PARTS OF WEB */
+
+.content{
+    padding: 80px 0;
+}
+
+.who{
+    background-color: grey;
+    color: white;
+    background:  url(./Colina/imagenes/_MG_8357.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.who p{
+    max-width: 1055px;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+.who strong{
+    color:  #E30203;
+}
+
+.servicios{
+    background-color: grey;
+    color: white;
+    padding-bottom: 10px;
+    background:  url(./Colina/imagenes/_MG_8270.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.portafolio{
+    background-color: #939393;
+    color: #fff;
+    background:  url(./Colina/imagenes/_MG_8217.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.portafolio p{
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.audiovisual{
+    background-color:  #878787;
+    color: #fff;
+    background:  url(./Colina/imagenes/_MG_5270.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.audiovisual-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+}
+
+.audiovisual-container1{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px;
+}
+.audiovisual p{
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.motiongraphic{
+    background-color:  #7C7C7C;
+    color: #fff;
+    background:  url(./Colina/imagenes/ASD_0170.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    text-align: center; 
+}
+
+.motion-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+}
+
+.motion-container1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px;
+}
+
+.motiongraphic p{
+    max-width: 1055px;
+    margin: 0 auto;
+}
+.fotografia{
+    background-color: #717171;
+    color: #fff;
+    background:  url(./Colina/imagenes/manga.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    text-align: center; 
+}
+
+.fotografia-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+}
+    
+.fotografia-container1{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px;
+}
+
+.Fotografia p{
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.contactos{
+    background-color: #717171;
+}
+
+.footer{
+    background-color: #717171;
+}
+
+/* Desktop First que empiece desde el MediaQuerie mas grande */
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 767px) {
+    .navbar{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}

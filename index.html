@@ -1,62 +1,181 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" type="images/png" href="Colina/imagenes/Colina_WhiteText_RedBG.png">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Colina Studios</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-           <ol>
-               <li>
-                <a>Portafolio</a>
-            </li>
-               <li>
-                <a>¿Quienes somos?</a>
-            </li>
-                <li>
-                <a>Contactame</a>
-            </li>
-             <li>
-                <a>Comentarios</a>
-            </li>
-           </ol>
-        </nav>
+    <!-- HEADER -->
+
+    <header class="header">
+        <figure>
+            <img class="logo-colina" src="colina/imagenes/Colina_RGB.png" alt="logo de colina">
+        </figure>
     </header>
-    <section>
-        <h1>
-            Hola soy <strong>Rafael Alvarez</strong>  <br>Soy desarrollador     <strong>FrontEnd</strong>  y un apasionado <br> por la <strong>fotografia.</strong> 
-        </h1>
-        <img src="" alt="imagen de referencia de mi portafolio">
+
+    <!-- NAVIGATION -->
+
+    <nav class="navbar">
+        <a class="quienes somos" href="#¿Quienes somos?">¿Quienes somos?</a>
+        <a class="portfolio" href="#Servicios">Servicios</a>
+        <a class="comentarios" href="#Portafolio">Portafolio</a>
+        <a class="contacto" href="#Contacto">Contacto</a>
+    </nav>
+
+    <!-- QUIENES SOMOS -->
+
+    <section id="¿Quienes somos?" class="content who">
+        <h2 class="title">¿Quienes Somos?</h2>
+        <p>Como <strong>Colina Studios</strong> somos redactores de<br> diferentes formatos de narrativas <strong>
+                Audiovisuales,</strong><br> con ideas frescas, adaptativas e innovadoras.</p>
     </section>
-    <section>
-        <article>
-            <h2>Portafolio (Proyectos destacados)</h2>
-            <h3>Platzi video</h3>
-            <h6>Reac native / react</h6>
-            <p><small><strong>Fecha:</strong> 01/07/2019</small></p>
-            <p><small><strong>Puedes verlo en:</strong> link</small></p>
-            <p>aqui va una breve descripcion del proyecto</p>
-        </article>
+
+    <!-- SERVICIOS -->
+
+    <section id="Servicios" class="servicios">
+        <h2 class="title">Servicios</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum dignissimos saepe! Praesentium,
+            assumenda
+            debitis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, repellat rem, veniam quasi cum sed
+            assumenda laudantium non a temporibus tempore incidunt quisquam consequatur vero perspiciatis ad
+            doloribus
+            animi enim!</p>
     </section>
-    <section>
-        <h2>Más sobre mi Experiencia</h2>
-        <article>
-            <figure>
-               <img src="" alt="imagen de referencia sobre el evento">
-            </figure>
-            <h3>
-                platziconf mexico 2018
-            </h3>
-            <p>
-                aqui va una descripcion del evento de platzi conf
+
+    <!-- Portafolio -->
+
+    <section id="Portafolio" class="portafolio">
+        <h2 class="title">Nuestro Portafolio</h2>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore id pariatur deserunt! Facilis,
+            enimsapiente.</P>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos dignissimos, laboriosam deserunt fugit
+            necessitatibus ducimus reprehenderit aut explicabo quam optio nemo veritatis recusandae repellat sunt ex
+            unde eaque iure non?</p>
+    </section>
+
+    <!-- REALIZACION AUDIOVISUAL -->
+
+    <section class="audiovisual">
+        <h2 class="title">Realizacion audiovisual</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perferendis consectetur corporis molestiae
+            architecto nobis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, voluptatum iure! Accusamus eos dolorem
+            sit reprehenderit, incidunt voluptate sint dicta porro enim, velit veritatis cum temporibus similique quas
+            mollitia rerum?</p>
+
+        <!-- IMAGENES DE AUDIOVISUALES -->
+        <div class="audiovisual-container1">
+            <div class="audiovisual-container">
+                <div>
+                    <img class="img-audiovisual" src="colina/imagenes/1.png" alt="imagen 1">
+                </div>
+                <div>
+                    <img class="img-audiovisual" src=" colina/imagenes/2.png" alt="imagen 2">
+                </div>
+                <div>
+                    <img class="img-audiovisual" src=" colina/imagenes/3.png" alt="imagen 3">
+                </div>
+                <div>
+                    <img class="img-audiovisual" src=" colina/imagenes/4.png" alt="imagen 4">
+                </div>
+            </div>
+        </div>
+        <!-- MOTIONS GRAPHIC -->
+
+        <section class="motiongraphic">
+            <h2 class="title">Motiongraphic</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero suscipit nisi, aut aspernatur deleniti
+                labore.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus exercitationem hic sed! Velit ut atque
+                odio
+                obcaecati eligendi nobis, omnis amet unde asperiores tempore maiores iusto assumenda quibusdam nesciunt
+                voluptates.</p>
+
+            <!-- IMAGENES DE MOTIONGRAPHIC -->
+            <div class="motion-container1">
+                <div class="motion-container">
+                    <div>
+                        <img class="img-motiongraphic" src="colina/imagenes/m1.png" alt="imagen m1">
+                    </div>
+                    <div>
+                        <img class="img-motiongraphic" src="colina/imagenes/m2.png" alt="imagen m2">
+                    </div>
+                    <div>
+                        <img class="img-motiongraphic" src="colina/imagenes/m3.png" alt="imagen m3">
+                    </div>
+                    <div>
+                        <img class="img-motiongraphic" src="colina/imagenes/m4.png" alt="imagen m4">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- FOTOGRAFIA -->
+
+        <section class="fotografia">
+            <h2 class="title">Fotografia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, provident eligendi officia
+                delectus
+                maiores ad.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, esse. Quam distinctio quae accusantium
+                odio
+                provident nobis fuga officiis pariatur. Ipsa possimus architecto, cumque adipisci id non facere vel
+                dolore.
             </p>
-            <a>aqui va el enlace a ese evento</a>
-        </article>
-    </section>
-    <section>contacto</section>
-    <footer></footer>
+
+            <!-- IMAGENES DE FOTOGRAFIA -->
+
+            <div class="fotografia-container1">
+                <div class="fotografia-container">
+                    <div>
+                        <img class="img-fotografia" src="colina/imagenes/f1.png" alt="imagen f1">
+                    </div>
+                    <div>
+                        <img class="img-fotografia" src="colina/imagenes/f2.png" alt="imagen f2">
+                    </div>
+                    <div>
+                        <img class="img-fotografia" src="colina/imagenes/f3.png" alt="imagen f3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+
+        <section id="Contacto" class="contactos">
+            <article class="contactos">
+                <h2 class="title">Contacto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae porro eius neque deserunt temporibus
+                    nostrum!
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dignissimos alias placeat nemo
+                    laudantium
+                    est
+                    qui deserunt aspernatur corrupti vero, quas distinctio quasi velit pariatur nostrum rerum commodi.
+                    Ullam,
+                    vitae.</p>
+            </article>
+
+            <form action="/Suscripcion/"></form>
+            <input type="text" placeholder="Deja tu email">
+            <button>Enviar</button>
+            <figure>
+                <img src="" alt="imagen de referencia logo">
+            </figure>
+        </section>
+        <footer class="footer">
+            <h3>aqui van las redes sociales de colina studios</h3>
+        </footer>
 </body>
+
 </html>
